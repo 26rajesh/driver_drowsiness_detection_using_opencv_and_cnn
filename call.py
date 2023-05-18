@@ -129,10 +129,10 @@ while(True):
     if(score > 3):        #person is feeling sleepy so we beep the alarm        
         pygame.mixer.music.play(-1)
         if score > 4:
-            key = "f80a2af3-2191-4009-bd2c-02ea9428b9d0"
-            secret = "D9sv5I21D0W00R/0XzE4DA=="
-            fromNumber = "+918778539123"
-            to = "+917904045699"
+            key = "**********************"
+            secret = "*****************"
+            fromNumber = "+************"
+            to = "+************"
             locale = "en_US"
             url = "https://calling.api.sinch.com/calling/v1/callouts"
             payload = {"method": "ttsCallout","ttsCallout": {"cli": fromNumber,"destination": {"type": "number","endpoint": to},"locale": locale,
