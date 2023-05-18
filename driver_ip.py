@@ -16,7 +16,7 @@ frequency = 2000
 duration = 1000
 
 #url for webcam
-url = 'http://192.168.147.247:8080/shot.jpg'
+url = '******************/shot.jpg'
 
 #loading haar cascade face detector file
 face = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
